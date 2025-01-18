@@ -1,0 +1,3 @@
+# React Native FlatList Performance Issue
+
+This repository demonstrates a performance issue encountered when using `FlatList` in React Native with deeply nested components and a large dataset.  The `bug.js` file showcases the problematic code, resulting in dropped frames and sluggish rendering. The solution, provided in `bugSolution.js`, addresses the performance bottleneck through optimization techniques.  The problem is characterized by the significant increase in rendering time as data complexity increases.
